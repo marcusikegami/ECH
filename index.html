@@ -14,15 +14,10 @@
             <div class="max-w-7xl mx-auto px-6 lg:px-8">
                 <div class="flex items-center justify-between h-16">
                     <a href="#" class="flex items-center gap-3">
-                        <div class="w-8 h-8 flex items-center justify-center">
-                            <svg viewBox="0 0 32 32" fill="none" xmlns="https://www.w3.org/2000/svg" class="w-8 h-8">
-                                <rect x="1" y="1" width="30" height="30" rx="4" stroke="#B8966A" stroke-width="1.5" />
-                                <line x1="16" y1="6" x2="16" y2="26" stroke="#B8966A" stroke-width="2" stroke-linecap="round" />
-                                <line x1="6" y1="16" x2="26" y2="16" stroke="#B8966A" stroke-width="2" stroke-linecap="round" />
-                            </svg>
+                        <div class="w-16 h-16 flex items-center justify-center">
+                            <img src="./dist/ech-logo.png" alt="ECH Logo" class="w-16 h-16" />
                         </div>
                         <div>
-                            <span class="font-serif text-white text-lg font-medium tracking-wide">ECH</span>
                             <span class="hidden sm:inline text-slate-pale text-xs ml-2 tracking-widest uppercase font-sans">Extended Coverage Healthcare</span>
                         </div>
                     </a>
@@ -69,7 +64,7 @@
                         <em class="text-gold-light not-italic" style="font-weight: 400">for the OR</em>
                     </h1>
 
-                    <p class="mt-8 text-slate-pale font-sans text-lg leading-relaxed max-w-xl anim-fade-up delay-3">Extended Coverage Healthcare relieves the burden of staffing PA/NP/CSA professionals across hospitals, ASCs, and surgical practices — improving efficiency and economics at every level.</p>
+                    <p class="mt-8 text-slate-pale font-sans text-lg leading-relaxed max-w-xl anim-fade-up delay-3">Extended Coverage Healthcare relieves the burden of staffing PA/NPRNFA/CSA professionals across hospitals, ASCs, and surgical practices — improving efficiency and economics at every level.</p>
 
                     <div class="mt-10 flex flex-wrap gap-4 anim-fade-up delay-4">
                         <a href="#contact" class="btn-gold px-8 py-3 text-sm font-medium rounded font-sans">Get Started</a>
@@ -129,7 +124,7 @@
                                 <svg class="w-5 h-5 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
                             </div>
                             <p class="font-serif text-navy text-xl" style="font-weight: 300">APP Placement</p>
-                            <p class="text-slate-mid text-sm font-sans">PAs, NPs, and CSAs placed with expertise in your specialty.</p>
+                            <p class="text-slate-mid text-sm font-sans">PAs, NPRNFAs, and CSAs placed with expertise in your specialty.</p>
                         </div>
 
                         <div class="bg-offwhite rounded-xl p-6 flex flex-col gap-3 border border-gold/20">
@@ -243,7 +238,7 @@
                                     <p class="text-slate-pale text-xs font-sans mt-1">Physician Assistants</p>
                                 </div>
                                 <div class="text-center border-x border-white/10">
-                                    <p class="font-serif text-white text-2xl" style="font-weight: 300">NP</p>
+                                    <p class="font-serif text-white text-2xl" style="font-weight: 300">NPRNFA</p>
                                     <p class="text-slate-pale text-xs font-sans mt-1">Nurse Practitioners</p>
                                 </div>
                                 <div class="text-center">
@@ -275,7 +270,7 @@
                     <div class="bg-navy-light p-8 hover:bg-navy-deep transition-colors">
                         <div class="text-gold font-serif text-4xl mb-4" style="font-weight: 300">02</div>
                         <h3 class="font-serif text-white text-xl mb-3" style="font-weight: 400">Placement</h3>
-                        <p class="text-slate-pale text-sm font-sans leading-relaxed">We match qualified PAs, NPs, and CSAs to your specialty, culture, and schedule requirements.</p>
+                        <p class="text-slate-pale text-sm font-sans leading-relaxed">We match qualified PAs, NPRNFAs, and CSAs to your specialty, culture, and schedule requirements or we can hire your current PA/NPRNFA/CSA and assign them back to you.</p>
                     </div>
 
                     <div class="bg-navy-light p-8 hover:bg-navy-deep transition-colors">
@@ -311,7 +306,7 @@
                                 </div>
                                 <div>
                                     <p class="text-xs text-slate-mid font-sans uppercase tracking-widest">Email</p>
-                                    <p class="text-navy font-sans">info@extendedcoveragehealthcare.com</p>
+                                    <p class="text-navy font-sans">joe@extendedcoveragehealthcare.com</p>
                                 </div>
                             </div>
 
@@ -321,13 +316,13 @@
                                 </div>
                                 <div>
                                     <p class="text-xs text-slate-mid font-sans uppercase tracking-widest">Phone</p>
-                                    <p class="text-navy font-sans">Contact us for direct line</p>
+                                    <a href="tel:4353000472" class="text-blue-950 font-sans underline">435-300-0472</a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="reveal bg-white rounded-2xl p-8 shadow-sm border border-gold/10">
+                    <!-- <div class="reveal bg-white rounded-2xl p-8 shadow-sm border border-gold/10">
                         <p class="font-serif text-navy text-2xl mb-6" style="font-weight: 400">Send Us a Message</p>
 
                         <form id="contact-form" class="space-y-4" onsubmit="handleSubmit(event)">
@@ -372,7 +367,7 @@
 
                             <p id="form-success" class="hidden text-center text-sm text-green-700 font-sans bg-green-50 rounded-lg py-3">✓ Thank you! We'll be in touch shortly.</p>
                         </form>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -403,7 +398,7 @@
 
                 <div class="mt-10 pt-8 border-t border-white/5 flex flex-col sm:flex-row justify-between items-center gap-3">
                     <p class="text-slate-mid text-xs font-sans">© 2025 Extended Coverage Healthcare. All rights reserved.</p>
-                    <p class="text-slate-mid text-xs font-sans">PA/NP/CSA Staffing Solutions</p>
+                    <p class="text-slate-mid text-xs font-sans">PA/NPRNFA/CSA Staffing Solutions</p>
                 </div>
             </div>
         </footer>
